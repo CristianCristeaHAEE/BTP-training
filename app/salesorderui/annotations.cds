@@ -1,7 +1,7 @@
 using SalesOrderService as service from '../../srv/SalesOrderService';
 annotate service.SalesOrderHeader with @(
 
-UI.SelectionField : [SalesOredrDesc, CustomerNo, Customer],
+UI.SelectionField : [SalesOredrDesc, CustomerNo],
 
     UI.FieldGroup #GeneratedGroup : {
         $Type : 'UI.FieldGroupType',
