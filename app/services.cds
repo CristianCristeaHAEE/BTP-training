@@ -1,2 +1,0 @@
-
-using from './salesorderui/annotations';
